@@ -112,7 +112,7 @@ async def start_command(client: Client, message: Message):
         buttons = [
             [
                 InlineKeyboardButton("⚠️ Channel", url=client.invitelink),
-                InlineKeyboardButton("Group ⚠️", url=client.invitelink2),
+                InlineKeyboardButton("Channel ⚠️", url=client.invitelink2),
             ],
             [
                 InlineKeyboardButton("🌐 About Me", callback_data="about"),
@@ -141,8 +141,8 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("•• Channel", url=client.invitelink),
-            InlineKeyboardButton("Channels •• ", url=client.invitelink2),
+            InlineKeyboardButton("•• POV", url=client.invitelink),
+            InlineKeyboardButton("DEEPFAKES •• ", url=client.invitelink2),
         ],
     ]
     try:
