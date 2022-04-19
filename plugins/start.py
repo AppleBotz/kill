@@ -111,8 +111,8 @@ async def start_command(client: Client, message: Message):
     else:
         buttons = [
             [
-                InlineKeyboardButton("⚠️ Channel", url=client.invitelink),
-                InlineKeyboardButton("Channel ⚠️", url=client.invitelink2),
+                InlineKeyboardButton("•• Channel", url=client.invitelink),
+                InlineKeyboardButton("Base ••", url=client.invitelink2),
             ],
             [
                 InlineKeyboardButton("🌐 About Me", callback_data="about"),
@@ -245,6 +245,7 @@ async def ping_pong(client, m: Message):
         "🐧<b>Ping-uin!!</b> \n"
         f"<b>• Pinger -</b> <code>{delta_ping * 1000:.3f}ms</code>\n"
         f"<b>• Uptime -</b> <code>{uptime}</code>\n"
+        f"<b>• Ranger -</b> <b><u>@BlvckCArds's"
     )
 
 
