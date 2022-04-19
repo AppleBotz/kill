@@ -111,8 +111,8 @@ async def start_command(client: Client, message: Message):
     else:
         buttons = [
             [
-                InlineKeyboardButton("•• Channel", url=client.invitelink),
-                InlineKeyboardButton("Base ••", url=client.invitelink2),
+                InlineKeyboardButton("•• Join", url=client.invitelink),
+                InlineKeyboardButton("Channel ••", url=client.invitelink2),
             ],
             [
                 InlineKeyboardButton("🌐 About Me", callback_data="about"),
@@ -141,8 +141,8 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("•• CHANNEL", url=client.invitelink),
-            InlineKeyboardButton("BASE ••", url=client.invitelink2),
+            InlineKeyboardButton("•• Join", url=client.invitelink),
+            InlineKeyboardButton("Channel ••", url=client.invitelink2),
         ],
     ]
     try:
